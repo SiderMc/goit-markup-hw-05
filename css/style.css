@@ -39,6 +39,7 @@ a {
   --third-color: #f4f4fd;
   --fourth-color: #e7e9fc;
   --five-color: #8e8f99;
+  --six-color: #fcfcfc;
   --hover-color: #404bbf;
   --hover-footer: #31d0aa;
   --footer-color: rgba(255, 255, 255, 0.1);
@@ -428,7 +429,7 @@ body {
   color: var(--third-color);
 }
 .service-list-overlay {
-  background: #4d5ae5;
+  background-color: var(--first-color);
   position: absolute;
   bottom: 0;
   left: 0;
@@ -476,7 +477,7 @@ body {
   transform: translate(-50%, -50%);
   width: 408px;
   min-height: 576px;
-  background-color: #fcfcfc;
+  background-color: var(--six-color);
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
